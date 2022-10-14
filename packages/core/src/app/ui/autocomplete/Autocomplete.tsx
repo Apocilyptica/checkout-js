@@ -2,10 +2,10 @@ import Downshift, { DownshiftState, StateChangeOptions } from 'downshift';
 import { includes, isNumber, noop } from 'lodash';
 import React, { Fragment, PureComponent, ReactChild, ReactNode } from 'react';
 
+import { Label } from '../form';
 import { Popover, PopoverList, PopoverListItem } from '../popover';
 
 import AutocompleteItem from './autocomplete-item';
-import { Label } from '../form';
 
 export interface AutocompleteProps {
     initialValue?: string;
